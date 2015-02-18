@@ -1,2 +1,2 @@
 # insertion-sort
-Implementation of the insertion sort algorithm, descending and ascending, in c++
+An implementation of the insertion sort algorithm, descending and ascending, in c++
