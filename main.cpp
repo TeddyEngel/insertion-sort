@@ -58,12 +58,11 @@ void PrintVector(std::vector<int> &values)
 int main(int argc, const char * argv[]) {
     std::vector<int> values = {10, 0, 2, 5, -4, 3, 2};
 
-    std::cout << "Unsorted collections:" << std::endl;
+    std::cout << "Unsorted collection:" << std::endl;
     PrintVector(values);
-    // Sorting
     InsertionSortAscending(values);
     // InsertionSortDescending(values);
-    std::cout << "Sorted collections:" << std::endl;
+    std::cout << "Sorted collection:" << std::endl;
     PrintVector(values);
     return 0;
 }
