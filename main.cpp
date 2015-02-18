@@ -9,7 +9,7 @@
 #include <vector>
 #include <iostream>
 
-void InsertionSortAscending(std::vector<int> &values)
+void InsertionSortAscending(std::vector<int>& values)
 {
     int i = 0, j = 0;
     int value = 0;
@@ -27,7 +27,7 @@ void InsertionSortAscending(std::vector<int> &values)
     }
 }
 
-void InsertionSortDescending(std::vector<int> &values)
+void InsertionSortDescending(std::vector<int>& values)
 {
     int i = 0, j = 0;
     int value = 0;
@@ -45,7 +45,7 @@ void InsertionSortDescending(std::vector<int> &values)
     }
 }
 
-void PrintVector(std::vector<int> &values)
+void PrintVector(std::vector<int>& values)
 {
     int i;
     
@@ -55,7 +55,7 @@ void PrintVector(std::vector<int> &values)
     }
 }
 
-int main(int argc, const char * argv[]) {
+int main(int argc, const char* argv[]) {
     std::vector<int> values = {10, 0, 2, 5, -4, 3, 2};
 
     std::cout << "Unsorted collection:" << std::endl;
